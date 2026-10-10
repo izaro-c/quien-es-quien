@@ -1,0 +1,8 @@
+build/
+cmake-build-*/
+bin/
+doc_doxygen/
+.idea/
+.vscode/
+*.o
+.DS_Store

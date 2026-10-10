@@ -1,0 +1,41 @@
+/*! \mainpage El Juego de Quien es Quien
+
+
+# Introducción
+
+Este documento contiene la información del TDA QuienEsQuien necesaria para la implementación
+del jugador automático para el juego "¿Quién es quíen?" a través del TDA bintree.
+
+En este Quien es Quien, en particular, el jugador automático debe hacer las preguntas,
+recoger la respuesta “Si”/“No” del jugador humano y continuar haciendo preguntas hasta
+deducir el personaje con el que el jugador humano está jugando.
+
+En enfoque de nuestra solución se busca la optimización de la estructura del árbol eliminando
+preguntas redundantes y buscando minimizar el promedio de preguntas para identificar el personaje,
+esto es haciendo uso de la entropía mediante la fórmula matemática: H(A) = -∑p(xi)*log2(p(xi))
+# Ejecutables
+
+El programa QuienEsQuien tendrá diferentes formas de ejecutarse desde
+la línea de órdenes:
+
+1ºJugar en modo texto, por ejemplo:
+
+    > bin/quienesquien datos/personajes-1.csv
+
+2º Jugar en modo gráfico, por ejemplo:
+
+    > bin/quienesquien datos/personajes_graficos.csv datos/Tapada.png
+
+3º Generar tableros aleatorios, por ejemplo:
+
+    > bin/quienesquien aleatorio
+
+4º Limpiar el árbol de preguntas que no divide al conjunto de personajes, por ejemplo
+
+    > bin/quienesquien datos/personajes-1.csv limpiar
+
+## Autores:
+Izaro Cuerdo Larraza
+
+Ángel Olmo Sáez
+*/
